@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    background-color: hsla(89, 43%, 51%, 0.3);
+      background: url("https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZ1bGwlMjBzY3JlZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZ1bGwlMjBzY3JlZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 50px 50px;
+    border-style: solid;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+label{
+    
+        color: black;
+        font-size: 17px;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    left: 10px;
+
+    
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  input{
+    
+    padding:5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid black;
+  }
+  input:focus{
+    outline:none;
+  }
